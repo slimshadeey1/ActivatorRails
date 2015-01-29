@@ -1,2 +1,2 @@
-# PoweredRails
-The server implementation of the Rails API
+# ActivatorRails
+The server implementation of the Rails API in Java.
