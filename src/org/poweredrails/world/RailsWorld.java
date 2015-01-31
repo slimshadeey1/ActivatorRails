@@ -47,7 +47,7 @@ public class RailsWorld implements World {
 	public Optional<Chunk> getChunk(Vector2i location) {
 		for(Chunk c : chunks){
 			if(c.getChunkPosition().getX() == location.getX() && c.getChunkPosition().getZ() == location.getY()){
-				return (Optional<Chunk>) c;
+				return Optional.of(c);
 			}
 		}
 		return null;
@@ -55,13 +55,13 @@ public class RailsWorld implements World {
 
 	@Override
 	public Optional<Chunk> generateChunk(Vector2i location, GridMap customChunk) {
-		// TODO Auto-generated method stub
+		// TODO Generate Chunk Method
 		return null;
 	}
 
 	@Override
 	public Chunk generateChunk(Vector2i location) {
-		// TODO Auto-generated method stub
+		// TODO Generate Chunk Method
 		return null;
 	}
 

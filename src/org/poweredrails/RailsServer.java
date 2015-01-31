@@ -1,13 +1,13 @@
 package org.poweredrails;
 
 import org.poweredrails.api.Server;
-import org.poweredrails.api.world.World;
+import org.poweredrails.api.world.WorldManager;
 import org.poweredrails.api.world.condition.Condition;
 
 public class RailsServer implements Server{
 
 	@Override
-	public World getWorldManager() {
+	public WorldManager getWorldManager() {
 		// TODO Auto-generated method stub
 		return null;
 	}
