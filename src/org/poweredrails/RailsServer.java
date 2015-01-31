@@ -6,10 +6,15 @@ import org.poweredrails.api.world.condition.Condition;
 
 public class RailsServer implements Server{
 
+	private WorldManager worldManager;
+	
+	public RailsServer(){
+		
+	}
+	
 	@Override
 	public WorldManager getWorldManager() {
-		// TODO Auto-generated method stub
-		return null;
+		return worldManager;
 	}
 
 	@Override
