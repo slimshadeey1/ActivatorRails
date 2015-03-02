@@ -4,6 +4,7 @@ import org.apache.logging.log4j.Logger;
 import org.poweredrails.api.Rails;
 import org.poweredrails.api.Server;
 
+
 public class ActivatorRails implements Rails{
 	
 	Logger logger;
