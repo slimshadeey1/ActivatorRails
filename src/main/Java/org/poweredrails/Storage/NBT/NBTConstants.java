@@ -1,4 +1,4 @@
-package org.poweredrails.Storage.NBT.V2;
+package org.poweredrails.Storage.NBT;
 
 import java.nio.charset.Charset;
 

@@ -1,4 +1,4 @@
-package org.poweredrails.Storage.NBT.V2;
+package org.poweredrails.Storage.NBT;
 
 /*
  * JNBT License
@@ -34,40 +34,27 @@ package org.poweredrails.Storage.NBT.V2;
  */
 
 /**
- * The <code>TAG_Int</code> tag.
+ * The <code>TAG_End</code> tag.
  * @author Graham Edgecombe
  *
  */
-public final class IntTag extends Tag {
+public final class EndTag extends Tag {
 
 	/**
-	 * The value.
-	 */
-	private final int value;
-	
-	/**
 	 * Creates the tag.
-	 * @param name The name.
-	 * @param value The value.
 	 */
-	public IntTag(String name, int value) {
-		super(name);
-		this.value = value;
+	public EndTag() {
+		super("");
 	}
 
 	@Override
-	public Integer getValue() {
-		return value;
+	public Object getValue() {
+		return null;
 	}
 	
 	@Override
 	public String toString() {
-		String name = getName();
-		String append = "";
-		if(name != null && !name.equals("")) {
-			append = "(\"" + this.getName() + "\")";
-		}
-		return "TAG_Int" + append + ": " + value;
+		return "TAG_End";
 	}
 
 }

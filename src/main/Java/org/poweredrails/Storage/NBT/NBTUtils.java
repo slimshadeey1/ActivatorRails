@@ -1,4 +1,4 @@
-package org.poweredrails.Storage.NBT.V2;
+package org.poweredrails.Storage.NBT;
 
 /*
  * JNBT License

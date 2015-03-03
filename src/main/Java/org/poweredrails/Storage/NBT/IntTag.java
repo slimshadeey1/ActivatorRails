@@ -1,4 +1,4 @@
-package org.poweredrails.Storage.NBT.V2;
+package org.poweredrails.Storage.NBT;
 
 /*
  * JNBT License
@@ -34,29 +34,29 @@ package org.poweredrails.Storage.NBT.V2;
  */
 
 /**
- * The <code>TAG_Byte</code> tag.
+ * The <code>TAG_Int</code> tag.
  * @author Graham Edgecombe
  *
  */
-public final class ByteTag extends Tag {
+public final class IntTag extends Tag {
 
 	/**
 	 * The value.
 	 */
-	private final byte value;
+	private final int value;
 	
 	/**
 	 * Creates the tag.
 	 * @param name The name.
 	 * @param value The value.
 	 */
-	public ByteTag(String name, byte value) {
+	public IntTag(String name, int value) {
 		super(name);
 		this.value = value;
 	}
 
 	@Override
-	public Byte getValue() {
+	public Integer getValue() {
 		return value;
 	}
 	
@@ -67,7 +67,7 @@ public final class ByteTag extends Tag {
 		if(name != null && !name.equals("")) {
 			append = "(\"" + this.getName() + "\")";
 		}
-		return "TAG_Byte" + append + ": " + value;
+		return "TAG_Int" + append + ": " + value;
 	}
-	
+
 }
