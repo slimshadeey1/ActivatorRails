@@ -1,4 +1,4 @@
-package org.poweredredstone.commons.gridmap;
+package org.poweredrails.gridmap;
 
 import java.io.Serializable;
 import java.util.Collection;
@@ -6,8 +6,8 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.poweredredstone.commons.gridmap.util.ElementExistsException;
-import org.poweredredstone.commons.gridmap.util.GridKey;
+import org.poweredrails.gridmap.util.ElementExistsException;
+import org.poweredrails.gridmap.util.GridKey;
 
 public class GridManager implements Iterable<Object>, Serializable, Comparable<GridManager>, GridMap {
 

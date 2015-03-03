@@ -7,8 +7,8 @@
  * The "LICENSE.txt" is provided in the main directory of the Rails code. 
  */
 
-package org.poweredredstone.commons;
+package org.poweredrails.vector;
 
-public interface Commons {
+public interface Vector {
 
 }

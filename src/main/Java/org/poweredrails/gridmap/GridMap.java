@@ -1,4 +1,4 @@
-package org.poweredredstone.commons.gridmap;
+package org.poweredrails.gridmap;
 
 import java.util.Collection;
 

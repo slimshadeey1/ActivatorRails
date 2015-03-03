@@ -1,4 +1,4 @@
-package org.poweredredstone.commons.gridmap.util;
+package org.poweredrails.gridmap.util;
 
 public class GridKey {
 
